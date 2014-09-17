@@ -1,0 +1,32 @@
+Nicholas LaRosa
+
+1. 
+
+	i)	First of all, this course should include more complicated examples during
+		the lectures. I really enjoy the challenges of the homework, but I oftentimes
+		find myself searching Google for help because I cannot find appropriate
+		information in the lecture slides. 
+
+	ii)	Secondly, I would like if the coding examples used during the lectures 
+		were posted somewhere in the AFS folder. I know James included many of 
+		them during his lectures, however, it would be great if these were more
+		regularly posted. I oftentimes attempt to write down these commands but find
+		myself cut off by a lecture transition.
+
+2.	I think the book does a great job explaining utilities and providing
+	listings of these utilities' options. However, I think that it would be great
+	if the book provided more complicated examples. Although they do provide many
+	examples, I have found that they neglect some of the more difficult elements
+	of utilities, such as AWK and SED scripting.
+
+3.	I do believe that the lecture slides are quite helpful for this
+	course. Besides needing more complicated examples, I do think that they
+	provide a great base (ie. basic command options) from which to begin using 
+	many UNIX utilities and commands.
+
+4. 	
+	i) 	AWK scripting (separating by fields)
+
+	ii) 	How to utilize VI to its full extent with regular expressions
+		and other helpful commands.
+

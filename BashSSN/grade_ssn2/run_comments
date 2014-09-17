@@ -1,0 +1,81 @@
+Grade output for nlarosa Problem 1
+GOOD: hw12 directory exists.
+GOOD: ssnhunt.sh submitted properly.
+GOOD: ssnhunt.sh is executable.
+Doing: nlarosa Start time: Wed May  8 10:52:27 EDT 2013
+Output from ssnhunt.sh script:
+/tmp/usr/afsws
+/tmp/usr/bin
+/tmp/usr/bin/fm-hbin1
+Binary file /tmp/usr/bin/fm-hbin1 matches
+/tmp/usr/etc
+/tmp/usr/etc/fmbg2.txt
+/tmp/usr/games
+/tmp/usr/games/hork
+/tmp/usr/include
+/tmp/usr/include/gonzo.txt
+capable 000-12-345 fake ssn for cse20189.
+/tmp/usr/java
+/tmp/usr/kerberos
+/tmp/usr/lib
+/tmp/usr/lib64
+/tmp/usr/libexec
+/tmp/usr/local
+/tmp/usr/local/src
+/tmp/usr/local/src/ampkg.bz2
+/tmp/usr/local/src/fmbg1.c
+printf("Fake SSN for cse20189 to find: 987-65-432 \n");
+/tmp/usr/sbin
+/tmp/usr/sbin/mfp-py.fig
+/tmp/usr/share
+/tmp/usr/share/fmsn.rtf
+/tmp/usr/site
+/tmp/usr/site/bin
+/tmp/usr/site/bin/fm-hbin2
+Binary file /tmp/usr/site/bin/fm-hbin2 matches
+/tmp/usr/site/doc
+/tmp/usr/site/doc/fmsn.eps
+/tmp/usr/site/etc
+/tmp/usr/site/etc/fmbg1.txt
+/tmp/usr/site/man
+/tmp/usr/site/man/blitzen.ps
+/tmp/usr/site/src
+/tmp/usr/site/src/gng-304.tar.gz
+/tmp/usr/src
+/tmp/usr/src/fmbg2.c
+printf("Fake SSN for cse20189 to find: 987-65-432 \n");
+/tmp/usr/tmp
+/tmp/usr/vice
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+(./ssnReport.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo))
+(/usr/share/texmf/tex/latex/tools/verbatim.sty)
+(/usr/share/texmf/tex/latex/enumitem/enumitem.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty))
+No file ssnReport.aux.
+(/usr/share/texmf/tex/latex/base/omscmr.fd) [1{/var/lib/texmf/fonts/map/pdftex/
+updmap/pdftex.map}] (./ssnReport.aux) )</usr/share/texmf/fonts/type1/bluesky/cm
+/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf
+/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy
+10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on ssnReport.pdf (1 page, 28958 bytes).
+Transcript written on ssnReport.log.
+END OF output from ssnhunt.sh script:
+Look for result files from ssnhunt.sh script:
+Latex File:
+1 -rw-r--r-- 1 curt dip 760 May  8 10:52 /afs/nd.edu/coursesp.13/cse/cse20189.01/dropbox/nlarosa/hw12/grade_ssn2/ssnReport.tex
+PDF File:
+29 -rw-r--r-- 1 curt dip 28958 May  8 10:52 /afs/nd.edu/coursesp.13/cse/cse20189.01/dropbox/nlarosa/hw12/grade_ssn2/ssnReport.pdf
+End of grading script generated output for nlarosa End time Wed May  8 10:52:32 EDT 2013

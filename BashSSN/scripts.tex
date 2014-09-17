@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\begin{document}
+
+\title{Homework 12 - Scripts}
+\author{Nicholas LaRosa}
+
+\maketitle
+
+\large{\textbf{Bash:}}
+
+Bash is a pure scripting language that communicates directly with the Bourne Again Shell. 
+Thus, users can call shell commands from a Bash script and are able to set environmental variables.
+Additionally, functions can be created and user arguments are easily taken care of. However,
+as a scripting language, the script is interpreted by the kernel, as opposed to the machine,
+making execution time slow. Additionally, I find the conditional syntax in Bash to be inconsistent
+and annoying.
+
+\large{\textbf{Csh:}}
+
+Csh, like Bash, is a scripting language that communicates directly with the C-shell. Thus,
+users can call shell commands from a Csh script and are able to set environmental variables.
+Csh does a nice job of allowing shell command output to be stored and searched with ease. 
+Additionally, command-line arguments are handled with ease. However, arithmetic and maintaining
+floating points is difficult in Csh (even moreso than Bash), and user input is strangely accepted.
+Of course, as a shell script, Csh is also very slow.
+
+\large{\textbf{Perl:}}
+
+Perl is a higher-level scripting language than Bash or Csh, and thus can not directly call
+shell commands without the use of its "system" function. Perl excels at storing data in very organized
+ways (especially with hashes), and its handling of variables makes printing and passing quite easy.
+Additionally, Perl can be object-oriented (but lacks data hiding), increasing its organization and
+ability. However, Perl can sometimes be unreadable if too many default variables are used.
+
+\large{\textbf{Python:}}
+
+Similar to Perl, Python is a higher-level scripting language than Bash or Csh, and thus can not 
+directly call shell commands without the use of its "os.system" function. Python also excels at 
+storing data with its dictionaries and lists, with its lists being very dynamic with different types.
+Python is object-oriented like Perl, but does provide more data-hiding abilities. Being a block-
+oriented langauge (with statements and scope being determined by whitespace), Python achieves
+better readability. However, Python variables are often somewhat unorganized, lacking any indication of type.
+
+\end{document}

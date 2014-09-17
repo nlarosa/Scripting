@@ -1,0 +1,21 @@
+COMPILER = g++
+FLAG_O = -o
+FLAG_C = -c
+MAIN = main
+PT = Point
+RECT = Rectangle
+
+EXEC = rectangle
+IO = all
+
+$(IO): $(EXEC)
+$(EXEC): $(MAIN).o $(RECT).o $(PT).o
+	$(COMPILER) $(MAIN).o $(RECT).o $(PT).o $(FLAG_O) $(EXEC)
+$(MAIN).o: $(MAIN).cpp $(PT).h $(RECT).h
+	$(COMPILER) $(FLAG_C) $(MAIN).cpp
+$(RECT).o: $(RECT).cpp $(RECT).h
+	$(COMPILER) $(FLAG_C) $(RECT).cpp
+$(PT).o: $(PT).cpp $(PT).h
+	$(COMPILER) $(FLAG_C) $(PT).cpp
+clean:
+	rm -f *.o $(EXEC)

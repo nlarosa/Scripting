@@ -1,0 +1,7 @@
+Object Oriented Programming is an excellent programming paradigm. 
+
+In Object Oriented Programming, programs consist of objects with their own members and methods. 
+
+Some Object Oriented Programming languages allow for inheritance and abstract objects. 
+
+C++, Java and Python have a strong Object Oriented Programming structure.

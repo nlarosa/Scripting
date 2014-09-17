@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Homework 9 - Part 3}
+\author{Nicholas LaRosa}
+
+\maketitle
+
+\large{\textbf{Part A:}}
+\begin{lstlisting}[language=awk]
+#!/usr/bin/perl
+$partaFile = "unixbook.txt";
+open(UNIXBOOK, $partaFile) or die $!;
+while($line = <UNIXBOOK>)
+{
+	$line =~ s/1337/elite/;
+	print $line;
+}
+close(UNIXBOOK);
+\end{lstlisting}
+
+\large{\textbf{Part B:}}
+\begin{lstlisting}[language=awk]
+#!/usr/bin/perl
+$partbFile = "greetings.txt";
+open(GREETINGS, $partbFile) or die $!;
+@lines = <GREETINGS>;
+foreach $line (@lines)
+{
+	if( $line !~ m/Hello/ )
+	{
+		print $line;
+	}
+}
+close(GREETINGS);
+\end{lstlisting}
+
+\large{\textbf{Part C:}}
+\begin{lstlisting}[language=awk]
+#!/usr/bin/perl
+$partcFile = "input.txt";
+foreach $line (`more $partcFile`)
+{
+        my @splits = split(' ', $line);
+        if( scalar @splits > 0 )
+	{
+		print $splits[0];
+	}
+}
+\end{lstlisting}
+
+\end{document}
+

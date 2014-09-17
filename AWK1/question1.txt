@@ -1,0 +1,8 @@
+Nicholas LaRosa
+
+1. 	sed -n '/student00.cse.nd.edu/p' ~/.ssh/known_hosts | sed -n 's/^.* //p'
+
+	grep 'student00.cse.nd.edu' ~/.ssh/known_hosts | grep -o '[^ ]*$'
+
+	awk '/student00.cse.nd.edu/{print}' ~/.ssh/known_hosts | awk '{print($3)}'
+

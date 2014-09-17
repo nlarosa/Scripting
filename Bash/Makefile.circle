@@ -1,0 +1,9 @@
+all: circle
+circle: cmain.o circle.o
+	g++ cmain.o circle.o -o circle
+cmain.o: cmain.cpp circle.h
+	g++ -c cmain.cpp
+circle.o: circle.cpp circle.h
+	g++ -c circle.cpp
+clean:
+	rm -f *.o circle

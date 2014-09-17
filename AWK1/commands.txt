@@ -1,0 +1,22 @@
+Nicholas LaRosa
+
+1. Have the system tell you what shell you're running:
+
+	echo $SHELL
+
+2. Run the job my_solver in the background:
+		
+	my_solver &
+
+3. Given jobs output, bring job 4 to the foreground:
+
+	fg %4
+
+4. Given jobs output, terminate job 2:
+
+	kill -9 %2
+
+5. Given history output, re-run the cp command:
+
+	!1059 
+
